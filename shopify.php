@@ -20,9 +20,9 @@ class Shopify {
 
 	// Initializing pdo instance & shopify api credentials 
 	private $db;
-	private $api_key = "e14e68216ed66ff77b9e2c280cb23198";
-	private $password = "fc1819612467619615352d8ef8c45ae6";
-	private $store = "kpstore2016.myshopify.com";
+	private $api_key = "your api key";
+	private $password = "your password";
+	private $store = "your store";
 	
 	function __construct(){		
 		$this->db = new DB('DB-CUSTOMERS');			
@@ -30,7 +30,6 @@ class Shopify {
 	
 	// Constructing store url
 	private function storeUrl(){		
-		// format: https://e14e68216ed66ff77b9e2c280cb23198:fc1819612467619615352d8ef8c45ae6@kpstore2016.myshopify.com/admin/customers/5383416582.json
 		return "https://".$this->api_key.":".$this->password."@".$this->store;		
 	}
 	
