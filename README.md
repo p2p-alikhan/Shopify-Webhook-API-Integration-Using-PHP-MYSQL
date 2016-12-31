@@ -5,7 +5,7 @@ This class does the following things
 1st: Imports existing customers from mysql CRM database to shopify store through shopify api
 2nd: Sends realtime notification to store admin whenever someone places an order on site through shopify webhook
 
-For complete walkthrough please visit >> linkedin-post-url
+For complete walkthrough please visit my post on linkedin profile >> pk.linkedin.com/in/p2palikhan
 
 Screenshots attached in folder.	
 
